@@ -41,10 +41,21 @@ h2 {
     margin-block-end: 1px; 
 }
  
-h3 {
+#SEC {
     text-align: center;
-    margin-top: -5px;
-    border-bottom: 1.5px solid black; 
+    margin-top: -127px;
+}
+
+#SEC:after {
+    display: block;
+    content: '';
+    position: relative;
+    width: 96.5%;
+    border: 1px solid #000000;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 900px;
+    
 }
 
 h4 {
@@ -76,6 +87,32 @@ h4 {
     top: 40px;
 }
 
+#ARROW2 {
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    transform: rotate(-90deg);
+    left: 30px;
+    top: 40px;
+}
+
+#ICONN {
+    height: 90px;
+    width: 90px;
+    position: absolute;
+    right: 30px;
+    top: 150px;
+}
+
+#ICONN2 {
+    height: 90px;
+    width: 90px;
+    position: absolute;
+    transform: rotate(-90deg);
+    left: 30px;
+    top: 150px;
+}
+
 #BUBBLE {
     height: 20px;
     width: 50px;
@@ -83,4 +120,49 @@ h4 {
     right: 30px;
     top: 110px;
     transform: rotate(180deg);
+}
+
+#SICON {
+    height: 22px;
+    width: 400px;
+    position: absolute;
+    right: 30px;
+    bottom: -350px;
+}
+
+#SICON2 {
+    height: 22px;
+    width: 400px;
+    position: absolute;
+    left: 30px;
+    bottom: -350px;
+    transform: scaleX(-1);
+}
+    
+#NICON {
+    height: 22px;
+    width: 400px;
+    position: absolute;
+    right: 30px;
+    bottom: -390px;
+}
+
+
+#NICON2 {
+    height: 22px;
+    width: 400px;
+    position: absolute;
+    left: 30px;
+    bottom: -390px;
+    transform: scaleX(-1);
+  
+}
+
+#CTB {
+    height: 80px;
+    width: 350px;
+    position: absolute;
+    bottom: -400px;
+    left: 550px;
+    right:550px;
 }
