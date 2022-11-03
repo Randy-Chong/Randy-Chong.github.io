@@ -6,9 +6,7 @@
 @font-face {
     font-family: ave;
     src: url(fonts/Avenir_Next_LT_W04_Light.ttf)
-    
 }
-
 
 body {
     margin: 5px;
@@ -22,8 +20,6 @@ h1 {
     height: 10%;
     font-family: ave;
     font-weight: 100;
-    
-
 }
 
 h1:after {
@@ -35,8 +31,6 @@ h1:after {
     margin-left: auto;
     margin-right: auto;
     margin-top: -20px;
-    
-
 }
 
 h2 {
@@ -45,7 +39,6 @@ h2 {
     font-family: rv; 
     font-weight: lighter;
     margin-block-end: 1px; 
-    
 }
  
 h3 {
@@ -68,11 +61,11 @@ h4 {
 }
 
 #ICON00 {
-    height: 50px;
-    width: 65px;
+    height: 35px;
+    width: 50px;
     position: absolute;
     left: 30px;
-    top: 85px;
+    top: 95px;
 }
 
 #ARROW {
@@ -81,4 +74,13 @@ h4 {
     position: absolute;
     right: 30px;
     top: 40px;
+}
+
+#BUBBLE {
+    height: 20px;
+    width: 50px;
+    position: absolute;
+    right: 30px;
+    top: 110px;
+    transform: rotate(180deg);
 }
