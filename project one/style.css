@@ -27,7 +27,7 @@ h1:after {
     content: '';
     position: relative;
     width: 96.5%;
-    border: 1px solid #000000;
+    border: 0.5px solid #000000;
     margin-left: auto;
     margin-right: auto;
     margin-top: -20px;
@@ -46,15 +46,16 @@ h2 {
     margin-top: -127px;
 }
 
-#SEC:after {
+section:after {
     display: block;
     content: '';
     position: relative;
     width: 96.5%;
-    border: 1px solid #000000;
+    border: 0.5px solid #000000;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 900px;
+    margin-top: -20px;
+
     
 }
 
@@ -123,34 +124,33 @@ h4 {
 }
 
 #SICON {
-    height: 22px;
-    width: 400px;
+    height: 33px;
+    width: 500px;
     position: absolute;
     right: 30px;
-    bottom: -350px;
+    bottom: -360px;
 }
 
 #SICON2 {
-    height: 22px;
-    width: 400px;
+    height: 33px;
+    width: 500px;
     position: absolute;
     left: 30px;
-    bottom: -350px;
+    bottom: -360px;
     transform: scaleX(-1);
 }
     
 #NICON {
-    height: 22px;
-    width: 400px;
+    height: 33px;
+    width: 500px;
     position: absolute;
     right: 30px;
     bottom: -390px;
 }
 
-
 #NICON2 {
-    height: 22px;
-    width: 400px;
+    height: 33px;
+    width: 500px;
     position: absolute;
     left: 30px;
     bottom: -390px;
