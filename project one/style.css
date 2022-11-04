@@ -53,10 +53,8 @@ section:after {
     width: 96.5%;
     border: 0.5px solid #000000;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: 20px;
     margin-top: -20px;
-
-    
 }
 
 h4 {
@@ -155,7 +153,6 @@ h4 {
     left: 30px;
     bottom: -390px;
     transform: scaleX(-1);
-  
 }
 
 #CTB {
