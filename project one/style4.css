@@ -65,12 +65,12 @@ h2:after {
     margin-bottom: 50px;
 }
 
-#EARTHD {
+#EARTHA {
     height: 368px;
     width: 368px;
     position: absolute;
     left: 14px;
-    bottom: -320px;
+    bottom: -347px;
 }
 
 #JUPITERA {
@@ -81,12 +81,12 @@ h2:after {
     bottom: -347px;
 }
 
-#MARSA {
+#MARSD {
     height: 368px;
     width: 368px;
     position: absolute;
     left: 707.5px;
-    bottom: -347px;
+    bottom: -320px;
 }
 
 #MERCURYA {
