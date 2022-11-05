@@ -51,9 +51,10 @@ h2:after {
     position: relative;
     width: 96.5%;
     border: 0.5px solid #000000;
-    margin-left: 2.5px;
+    margin-left: 1px;
     margin-right: auto;
     margin-top: -10px;
+    border-width: 3px;
 }
 
 #EARTHING {
@@ -61,6 +62,39 @@ h2:after {
     margin-top: -100px;
     margin-left: 20px;
     margin-right: 20px;
+    margin-bottom: 50px;
+}
+
+#EARTHD {
+    height: 368px;
+    width: 368px;
+    position: absolute;
+    left: 14px;
+    bottom: -320px;
+}
+
+#JUPITERA {
+    height: 368px;
+    width: 368px;
+    position: absolute;
+    left: 360.5px;
+    bottom: -347px;
+}
+
+#MARSA {
+    height: 368px;
+    width: 368px;
+    position: absolute;
+    left: 707.5px;
+    bottom: -347px;
+}
+
+#MERCURYA {
+    height: 368px;
+    width: 368px;
+    position: absolute;
+    left: 1054px;
+    bottom: -347px;
 }
 
 section:after {
