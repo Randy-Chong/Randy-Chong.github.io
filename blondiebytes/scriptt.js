@@ -1,5 +1,6 @@
 function revealMessage() {
-    document.getElementById("hiddenMessage").style.display ='block';
+  document.getElementById('hiddenMessage').style.
+  display = 'block';
 }
 
 function countDown() {
@@ -11,3 +12,4 @@ function countDown() {
     document.getElementById("countDownButton").innerHTML = newVal;
 
 }
+
