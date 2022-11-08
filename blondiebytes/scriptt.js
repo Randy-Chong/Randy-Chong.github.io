@@ -1,11 +1,11 @@
-function revealMessage () {
-    document.getElementById ("hiddenMessage").style.display ='block';
+function revealMessage() {
+    document.getElementById("hiddenMessage").style.display ='block';
 }
 
-function countDown () {
-    var currentVal = document.getElementById ("countDownButtonId").innerHTML;
+function countDown() {
+    var currentVal = document.getElementById("countDownButtonId").innerHTML;
     var newVal = 0;
-    if (currentVal > 0) {
+    if(currentVal > 0) {
         newVal = currentVal -1;
     }
     document.getElementById("countDownButton").innerHTML = newVal;
