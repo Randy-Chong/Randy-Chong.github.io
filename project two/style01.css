@@ -1,0 +1,24 @@
+body {
+    margin: 5px;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-size: 130px;
+    margin-top: 0px;
+    width: 100%;
+    height: 10%;
+    font-family: ave;
+    font-weight: 100;
+    color: white;
+    
+}
+
+#HOMEPAGE {
+    height: 820px;
+    width: 1810px;
+    position: absolute;
+    left: -180px;
+    top: -110px;
+}
