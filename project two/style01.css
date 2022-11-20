@@ -22,3 +22,19 @@ h1 {
     left: -180px;
     top: -105px;
 }
+
+#FIRST {
+    height: 500px;
+    width: 1180px;
+    position: absolute;
+    left: 140px;
+    top: 0px;
+}
+
+#CHEAT {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 620px;
+    top: 520px;
+}
