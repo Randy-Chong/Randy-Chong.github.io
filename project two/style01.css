@@ -12,7 +12,6 @@ h1 {
     font-family: ave;
     font-weight: 100;
     color: white;
-    
 }
 
 #HOMEPAGE {
@@ -38,3 +37,20 @@ h1 {
     left: 620px;
     top: 520px;
 }
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: white;
+    border-radius: 5px;
+  }
