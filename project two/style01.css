@@ -268,7 +268,7 @@ body {
     width: 590px;
     position: absolute;
     left: 400px;
-    top: 6850px;
+    top: 6990px;
 }
 
 #ICON {
@@ -301,6 +301,14 @@ body {
     position: absolute;
     left: 1050px;
     top: 5945px;
+}
+
+#THANKS {
+    height: 830px;
+    width: 1600px;
+    position: absolute;
+    left: -80px;
+    top: 6950px;
 }
 
 .marquee {
