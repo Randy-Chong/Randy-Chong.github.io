@@ -15,7 +15,6 @@ h1 {
     position: fixed;
     left: -180px;
     top: -105px;
-    
 }
 
 #FIRST {
@@ -346,7 +345,7 @@ body {
     height: 90px;
     width: 1900px;
     position: absolute;
-    left: -20px;
+    left: 0px;
     top: 1560px;
 }
 
