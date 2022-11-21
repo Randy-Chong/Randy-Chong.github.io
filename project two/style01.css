@@ -276,22 +276,6 @@ body {
     top: 6850px;
 }
 
-#tech {
-    height: 200x;
-    width: 200px;
-    position: absolute;
-    left: 620px;
-    top: 7500px;
-}
-
-#tech2 {
-    height: 100x;
-    width: 100px;
-    position: absolute;
-    left: 671px;
-    top: 7400px;
-}
-
 #ICON {
     height: 110px;
     width: 380px;
@@ -316,10 +300,42 @@ body {
     top: 5050px;
 }
 
-#ICON4{
+#ICON4 {
     height: 110px;
     width: 380px;
     position: absolute;
     left: 1050px;
     top: 5945px;
 }
+
+.marquee {
+    position: absolute;
+    background-color: 0, 0, 0, 0;
+    width: 100vw;
+    max-width: 100%;
+    height: 50px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+  
+.track {
+    position: absolute;
+    white-space: nowrap;
+    will-change: transform;
+    animation: marquee 20s linear infinite;
+}
+  
+@keyframes marquee {
+    from { transform: translateX(-50%); }
+    to { transform: translateX(0); }
+}
+
+#marquee-img {
+    margin-right:100px;
+    height: 90px;
+    width: 1900px;
+    position: absolute;
+    left: -20px;
+    top: 1560px;
+}
+
