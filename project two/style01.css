@@ -60,6 +60,14 @@ body {
     top: 1650px;
 }
 
+#REC {
+    height: 90px;
+    width: 1900px;
+    position: absolute;
+    left: -20px;
+    top: 1560px;
+}
+
 #TITLE {
     height: 500px;
     width: 980px;
@@ -68,6 +76,37 @@ body {
     top: 2020px;
 }
 
+#REC2 {
+    height: 90px;
+    width: 1900px;
+    position: absolute;
+    left: -20px;
+    top: 2480px;
+}
+
+#C1 {
+    height: 700px;
+    width: 760px;
+    position: absolute;
+    left: -10px;
+    top: 2570px;
+}
+
+#C11 {
+    height: 700px;
+    width: 760px;
+    position: absolute;
+    left: 720px;
+    top: 2570px;
+}
+
+#REC3 {
+    height: 90px;
+    width: 1900px;
+    position: absolute;
+    left: -20px;
+    top: 3270px;
+}
 
 
 
