@@ -311,6 +311,14 @@ body {
     top: 6950px;
 }
 
+#arrow {
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 630px;
+    top: 6200px;
+}
+
 .marquee {
     position: absolute;
     background-color: 0, 0, 0, 0;
