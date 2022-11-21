@@ -325,7 +325,7 @@ body {
     to { transform: translateX(0); }
 }
 
-marquee-img {
+.marquee-img {
     margin-right:100px;
     height: 90px;
     width: 1900px;
