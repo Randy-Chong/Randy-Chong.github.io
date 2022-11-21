@@ -108,6 +108,194 @@ body {
     top: 3270px;
 }
 
+#REC4 {
+    height: 90px;
+    width: 1900px;
+    position: absolute;
+    left: -20px;
+    top: 3375px;
+}
 
+#C2 {
+    height: 700px;
+    width: 760px;
+    position: absolute;
+    left: -10px;
+    top: 3465px;
+}
 
+#C22 {
+    height: 700px;
+    width: 760px;
+    position: absolute;
+    left: 720px;
+    top: 3465px;
+}
 
+#REC5 {
+    height: 90px;
+    width: 1900px;
+    position: absolute;
+    left: -20px;
+    top: 4165px;
+}
+
+#REC6 {
+    height: 90px;
+    width: 1900px;
+    position: absolute;
+    left: -20px;
+    top: 4270px;
+}
+
+#C3 {
+    height: 700px;
+    width: 760px;
+    position: absolute;
+    left: -10px;
+    top: 4360px;
+}
+
+#C33 {
+    height: 700px;
+    width: 760px;
+    position: absolute;
+    left: 720px;
+    top: 4360px;
+}
+
+#REC7 {
+    height: 90px;
+    width: 1900px;
+    position: absolute;
+    left: -20px;
+    top: 5060px;
+}
+
+#REC8 {
+    height: 90px;
+    width: 1900px;
+    position: absolute;
+    left: -20px;
+    top: 5165px;
+}
+
+#C4 {
+    height: 700px;
+    width: 760px;
+    position: absolute;
+    left: -10px;
+    top: 5255px;
+}
+
+#C44 {
+    height: 700px;
+    width: 760px;
+    position: absolute;
+    left: 720px;
+    top: 5255px;
+}
+
+#REC9 {
+    height: 90px;
+    width: 1900px;
+    position: absolute;
+    left: -20px;
+    top: 5955px;
+}
+
+#REC10 {
+    height: 90px;
+    width: 1900px;
+    position: absolute;
+    left: -20px;
+    top: 6060px;
+}
+
+#LASTWALL {
+    height: 830px;
+    width: 1600px;
+    position: absolute;
+    left: -120px;
+    top: 6150px;
+}
+
+#TITLE2 {
+    height: 500px;
+    width: 980px;
+    position: absolute;
+    left: 250px;
+    top: 6400px;
+}
+
+#ENDING {
+    height: 80px;
+    width: 600px;
+    position: absolute;
+    left: 450px;
+    top: 6875px;
+}
+
+#concept1 {
+    height: 150px;
+    width: 480px;
+    position: absolute;
+    left: -10px;
+    top: 3240px;
+}
+
+#concept2 {
+    height: 150px;
+    width: 480px;
+    position: absolute;
+    left: 3px;
+    top: 4135px;
+}
+
+#concept3 {
+    height: 150px;
+    width: 480px;
+    position: absolute;
+    left: 3px;
+    top: 5030px;
+}
+
+#concept4 {
+    height: 150px;
+    width: 480px;
+    position: absolute;
+    left: 3px;
+    top: 5925px;
+}
+
+#oof {
+    height: 500px;
+    width: 390px;
+    position: absolute;
+    left: 520px;
+    top: 7000px;
+}
+
+#tech {
+    height: 200x;
+    width: 200px;
+    position: absolute;
+    left: 620px;
+    top: 7500px;
+}
+
+#tech2 {
+    height: 100x;
+    width: 100px;
+    position: absolute;
+    left: 671px;
+    top: 7400px;
+}
+
+#ICON {
+    height: 110px;
+    width: 380px;
+    position: absolute;
+    left: 1050px;
+    top: 3260px;
+}
