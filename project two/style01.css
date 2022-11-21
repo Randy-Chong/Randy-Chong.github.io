@@ -42,6 +42,12 @@ body {
     overflow-x: hidden; /* Hide horizontal scrollbar */
   }
 
-
+#CIRCLE{
+    height: 830px;
+    width: 1450px;
+    position: absolute;
+    left: 0px;
+    top: 800px;
+}
 
 
