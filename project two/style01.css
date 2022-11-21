@@ -17,9 +17,10 @@ h1 {
 #HOMEPAGE {
     height: 830px;
     width: 1800px;
-    position: absolute;
+    position: fixed;
     left: -180px;
     top: -105px;
+    
 }
 
 #FIRST {
@@ -40,14 +41,16 @@ h1 {
 
 body {
     overflow-x: hidden; /* Hide horizontal scrollbar */
+    position: absolute;
   }
 
 #CIRCLE{
     height: 830px;
     width: 1450px;
     position: absolute;
-    left: 0px;
-    top: 800px;
+    left: -10px;
+    top: 730px;
 }
+
 
 
