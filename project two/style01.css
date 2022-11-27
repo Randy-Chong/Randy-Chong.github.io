@@ -468,3 +468,10 @@ float: right;
     top: 7680px;
     z-index: 200;
   }
+
+@media screen and (max-width: 768px) {
+  .two-col {
+    flex-direction: column;
+  }
+ 
+  }
