@@ -469,6 +469,16 @@ float: right;
     z-index: 200;
   }
 
+
+.flex-layout {
+  display: flex;;
+}
+
+
+
+.right-main {
+  flex: 70%;
+}
 @media screen and (max-width: 768px) {
   .two-col {
     flex-direction: column;
