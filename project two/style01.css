@@ -329,9 +329,9 @@ body {
   width: 3000px;
   max-width: 600%;
   height: 120px;
-  overflow-x:visible;
+  overflow-x: visible;
   overflow-y: visible;
-float: right;
+  float: right;
   left: -100px;
   right: 100px;
   top: 1541px;
@@ -345,7 +345,7 @@ float: right;
   white-space: nowrap;
   width: 1680px;
   will-change: scroll-position;
-  animation:infinite marquee 5s linear;
+  animation: infinite marquee 5s linear;
 }
 
 @keyframes marquee {
@@ -358,130 +358,147 @@ float: right;
 }
 
 .marquee-img {
-  position:relative;
+  position: relative;
   width: 100vw;
 }
 
 .marquee2 {
-    position: absolute;
-    width: 3000px;
-    max-width: 600%;
-    height: 120px;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    left: -100px;
-    right: 100px;
-    top: 2461px;
-    z-index: 200;
-  }
-
-  .marquee3 {
-    position: absolute;
-    width: 3000px;
-    max-width: 600%;
-    height: 120px;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    left: -100px;
-    right: 100px;
-    top: 3357px;
-    z-index: 200;
-  }
-
-  .marquee4 {
-    position: absolute;
-    width: 3000px;
-    max-width: 600%;
-    height: 120px;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    left: -100px;
-    right: 100px;
-    top: 4252px;
-    z-index: 200;
-  }
-
-  .marquee5 {
-    position: absolute;
-    width: 3000px;
-    max-width: 600%;
-    height: 120px;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    left: -100px;
-    right: 100px;
-    top: 5146px;
-    z-index: 200;
-  }
-
-  .marquee6 {
-    position: absolute;
-    width: 3000px;
-    max-width: 600%;
-    height: 120px;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    left: -100px;
-    right: 100px;
-    top: 6041px;
-    z-index: 200;
-  }
-
-  #REC11 {
-    height: 90px;
-    width: 1900px;
-    position: absolute;
-    left: -20px;
-    top: 6950px;
-  }
-
-  #REC12 {
-    height: 90px;
-    width: 1900px;
-    position: absolute;
-    left: -20px;
-    top: 7700px;
-  }
-
-  .marquee7 {
-    position: absolute;
-    width: 3000px;
-    max-width: 600%;
-    height: 120px;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    left: -100px;
-    right: 100px;
-    top: 6931px;
-    z-index: 200;
-  }
-
-  .marquee8 {
-    position: absolute;
-    width: 3000px;
-    max-width: 600%;
-    height: 120px;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    left: -100px;
-    right: 100px;
-    top: 7680px;
-    z-index: 200;
-  }
-
-
-.flex-layout {
-  display: flex;;
+  position: absolute;
+  width: 3000px;
+  max-width: 600%;
+  height: 120px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  left: -100px;
+  right: 100px;
+  top: 2461px;
+  z-index: 200;
 }
 
+.marquee3 {
+  position: absolute;
+  width: 3000px;
+  max-width: 600%;
+  height: 120px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  left: -100px;
+  right: 100px;
+  top: 3357px;
+  z-index: 200;
+}
 
+.marquee4 {
+  position: absolute;
+  width: 3000px;
+  max-width: 600%;
+  height: 120px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  left: -100px;
+  right: 100px;
+  top: 4252px;
+  z-index: 200;
+}
+
+.marquee5 {
+  position: absolute;
+  width: 3000px;
+  max-width: 600%;
+  height: 120px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  left: -100px;
+  right: 100px;
+  top: 5146px;
+  z-index: 200;
+}
+
+.marquee6 {
+  position: absolute;
+  width: 3000px;
+  max-width: 600%;
+  height: 120px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  left: -100px;
+  right: 100px;
+  top: 6041px;
+  z-index: 200;
+}
+
+#REC11 {
+  height: 90px;
+  width: 1900px;
+  position: absolute;
+  left: -20px;
+  top: 6950px;
+}
+
+#REC12 {
+  height: 90px;
+  width: 1900px;
+  position: absolute;
+  left: -20px;
+  top: 7700px;
+}
+
+.marquee7 {
+  position: absolute;
+  width: 3000px;
+  max-width: 600%;
+  height: 120px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  left: -100px;
+  right: 100px;
+  top: 6931px;
+  z-index: 200;
+}
+
+.marquee8 {
+  position: absolute;
+  width: 3000px;
+  max-width: 600%;
+  height: 120px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  left: -100px;
+  right: 100px;
+  top: 7680px;
+  z-index: 200;
+}
+
+.flex-layout {
+  display: flex;
+}
 
 .right-main {
   flex: 70%;
 }
 @media screen and (max-width: 768px) {
-  .two-col {
-    flex-direction: column;
+  #FIRST {
+    height: auto;
+    width: 100%;
+    position: absolute;
+    left: 140px;
+    top: 0px;
   }
- 
+  #CIRCLE {
+    height: auto;
+    width: 100%;
+    position: absolute;
+    left: 160px;
+    top: 730px;
   }
+
+  element.style {
+  }
+  #WALL {
+    height: auto;
+    width: 100%;
+    position: absolute;
+    left: 200px;
+    top: 1650px;
+  }
+}
