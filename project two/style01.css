@@ -1,7 +1,4 @@
-body {
-  overflow-x: hidden; /* Hide horizontal scrollbar */
-  position: absolute;
-}
+
 
 body {
   background-image: url('images/homepage.png');
@@ -13,14 +10,12 @@ body {
   background-color: black;
 }
 
-.marquee-img #FIRST {
-  height: 450px;
+#FIRST {
+  height: 550px;
   width: 100vw;
+  background-position: 100vw;
   position: absolute;
-  background-position-x: center;
-  background-size: cover;
-  background-repeat: none;
-  background-attachment: fixed;
+  object-fit: contain;
   left: 0px;
   top: 0px;
 }
