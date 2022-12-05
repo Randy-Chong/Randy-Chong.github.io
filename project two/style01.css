@@ -23,7 +23,7 @@ body {
 }
 
 .CHEAT {
-  height: 200px;
+  height: 170px;
   width: 100vw;
   position: absolute;
   object-fit: contain;
@@ -31,11 +31,14 @@ body {
   top: 550px;
 }
 
-#CIRCLE {
+.CIRCLE {
   height: 830px;
-  width: 1450px;
+  width: 100vw;
   position: absolute;
+  object-fit: contain;
+  object-fit: fill;
   left: -10px;
+  right: 10px;;
   top: 730px;
 }
 
