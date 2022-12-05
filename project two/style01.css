@@ -1,6 +1,6 @@
 body {
   overflow-x: hidden; /* Hide horizontal scrollbar */
-  position:sticky;
+  position: sticky;
 }
 
 body {
@@ -45,7 +45,7 @@ body {
   height: 830px;
   width: 130vw;
   position: absolute;
-  object-fit:scale-down;
+  object-fit: scale-down;
   object-fit: cover;
   object-fit: fill;
   left: -120px;
@@ -327,7 +327,7 @@ body {
   width: 100vw;
   position: absolute;
   object-fit: contain;
-  align-content:center;
+  align-content: center;
   top: 1541px;
   z-index: 1000;
 }
@@ -343,13 +343,18 @@ body {
   will-change: scroll-position;
   animation: infinite marquee 10s linear;
 }
+/* this is the delay for the second track */
+.track2 {
+  animation-delay: 2s;
+  left: -100vw;
+}
 
 @keyframes marquee {
   from {
     transform: translateX(-1vw);
   }
   to {
-    transform: translateX(100vw);  
+    transform: translateX(100vw);
   }
 }
 
@@ -360,7 +365,6 @@ body {
   object-fit: fill;
   left: 0px;
 }
-
 
 .marquee2 {
   position: absolute;
@@ -469,7 +473,8 @@ body {
   z-index: 200;
 }
 
-
-
-
-
+@media screen and (max-width: 520px) {
+  .marquee-img {
+    width: 280vw;
+  }
+}
