@@ -22,12 +22,13 @@ body {
   top: 0px;
 }
 
-#CHEAT {
+.CHEAT {
   height: 200px;
-  width: 200px;
+  width: 100vw;
   position: absolute;
-  left: 620px;
-  top: 520px;
+  object-fit: contain;
+  left: 0px;
+  top: 550px;
 }
 
 #CIRCLE {
