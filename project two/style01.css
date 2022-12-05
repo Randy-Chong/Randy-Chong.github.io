@@ -65,19 +65,17 @@ body {
   width: 100vw;
   position: absolute;
   object-fit: contain;
-  left: 250px;
+  left: 0px;
   top: 2020px;
-  object-fit:scale-down;
-  object-fit: cover;
-  object-fit: fill;
+
 }
-.CHEAT {
-  height: 170px;
+.FIRST {
+  height: 550px;
   width: 100vw;
   position: absolute;
   object-fit: contain;
   left: 0px;
-  top: 550px;
+  top: 0px;
 }
 
 #REC2 {
