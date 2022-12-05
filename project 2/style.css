@@ -1,10 +1,6 @@
 body1 {
-    overflow-x: hidden; /* Hide horizontal scrollbar */
+    overflow-x:scroll; /* Hide horizontal scrollbar */
     position: absolute; 
-}
-
-h1 {
-    background-color: black;
 }
 
 * {box-sizing:border-box;}
@@ -15,14 +11,14 @@ img {
 
 section {
     width: 100vw;
-    height:auto;
+    height: auto;
 }
 
-.home {
+img.home {
     padding:100px;
 }
 
-img.hompeage {
+.hompeage {
   position: -webkit-sticky;
   position: sticky;
   top: 0;

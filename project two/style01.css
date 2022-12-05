@@ -1,25 +1,27 @@
 body {
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  position: absolute;
+}
+
+body {
   background-image: url('images/homepage.png');
+  background-position: 100vw;
+  background-position-x: center;
   background-size: cover;
   background-repeat: none;
   background-attachment: fixed;
   background-color: black;
-  position: sticky;
 }
 
-#HOMEPAGE {
-  height: 830px;
-  width: 100%;
-  position: sticky;
-  left: 0px;
-  top: 0px;
-}
-
-#FIRST {
-  height: 500px;
-  width: 1180px;
+.marquee-img #FIRST {
+  height: 450px;
+  width: 100vw;
   position: absolute;
-  left: 140px;
+  background-position-x: center;
+  background-size: cover;
+  background-repeat: none;
+  background-attachment: fixed;
+  left: 0px;
   top: 0px;
 }
 
@@ -29,11 +31,6 @@ body {
   position: absolute;
   left: 620px;
   top: 520px;
-}
-
-body {
-  overflow-x: hidden; /* Hide horizontal scrollbar */
-  position: absolute;
 }
 
 #CIRCLE {
@@ -484,8 +481,7 @@ body {
     top: 730px;
   }
 
-  element.style {
-  }
+
   #WALL {
     height: auto;
     width: 100%;
@@ -493,4 +489,17 @@ body {
     left: 200px;
     top: 1650px;
   }
+}
+
+element.style {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+* {
+  box-sizing: border-box;
 }
