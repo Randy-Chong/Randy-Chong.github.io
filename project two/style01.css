@@ -1,4 +1,7 @@
-
+body {
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+  position:sticky;
+}
 
 body {
   background-image: url('images/homepage.png');
@@ -10,10 +13,9 @@ body {
   background-color: black;
 }
 
-#FIRST {
+.FIRST {
   height: 550px;
   width: 100vw;
-  background-position: 100vw;
   position: absolute;
   object-fit: contain;
   left: 0px;
@@ -495,6 +497,4 @@ element.style {
   vertical-align: baseline;
 }
 
-* {
-  box-sizing: border-box;
-}
+
