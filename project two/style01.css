@@ -67,15 +67,6 @@ body {
   object-fit: contain;
   left: 0px;
   top: 2020px;
-
-}
-.FIRST {
-  height: 550px;
-  width: 100vw;
-  position: absolute;
-  object-fit: contain;
-  left: 0px;
-  top: 0px;
 }
 
 #REC2 {
@@ -224,9 +215,10 @@ body {
 
 #TITLE2 {
   height: 500px;
-  width: 980px;
+  width: 100vw;
   position: absolute;
-  left: 250px;
+  object-fit: contain;
+  left: 0px;
   top: 6400px;
 }
 
@@ -270,11 +262,12 @@ body {
   top: 5925px;
 }
 
-#oof {
+.oof {
   height: 700px;
-  width: 590px;
+  width: 100vw;
   position: absolute;
-  left: 400px;
+  object-fit: contain;
+  left: 0px;
   top: 7050px;
 }
 
@@ -310,35 +303,46 @@ body {
   top: 5945px;
 }
 
-#THANKS {
+.THANKS {
   height: 830px;
-  width: 1600px;
+  width: 100vw;
   position: absolute;
-  left: -80px;
+  object-fit: contain;
+  object-fit: fill;
+  left: -8px;
   top: 6950px;
 }
 
-#arrow {
+.arrow {
   height: 200px;
-  width: 200px;
+  width: 100vw;
   position: absolute;
-  left: 630px;
+  object-fit: contain;
+  left: 0px;
   top: 6200px;
 }
 
 .marquee {
   position: absolute;
-  width: 3000px;
-  max-width: 600%;
-  height: 120px;
-  overflow-x: visible;
-  overflow-y: visible;
+  object-fit: contain;
   float: right;
-  left: -100px;
-  right: 100px;
+  height: 120px;
+  width: 100vw;
+  left: 0px;
   top: 1541px;
-  z-index: 500;
+  z-index: 700;
+  display: flex;
 }
+
+.arrow {
+  height: 200px;
+  width: 100vw;
+  position: absolute;
+  object-fit: contain;
+  left: 0px;
+  top: 6200px;
+}
+
 .marquee-content {
   width: 100vw;
 }
@@ -355,7 +359,7 @@ body {
     transform: translateX(-1vw);
   }
   to {
-    transform: translateX(110vw);
+    transform: translateX(100vw);  
   }
 }
 
@@ -471,46 +475,7 @@ body {
   z-index: 200;
 }
 
-.flex-layout {
-  display: flex;
-}
-
-.right-main {
-  flex: 70%;
-}
-@media screen and (max-width: 768px) {
-  #FIRST {
-    height: auto;
-    width: 100%;
-    position: absolute;
-    left: 140px;
-    top: 0px;
-  }
-  #CIRCLE {
-    height: auto;
-    width: 100%;
-    position: absolute;
-    left: 160px;
-    top: 730px;
-  }
 
 
-  #WALL {
-    height: auto;
-    width: 100%;
-    position: absolute;
-    left: 200px;
-    top: 1650px;
-  }
-}
-
-element.style {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
 
 
