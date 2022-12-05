@@ -323,29 +323,28 @@ body {
 }
 
 .marquee {
-  height: 120px;
   width: 100vw;
   position: absolute;
+  position: -webkit-sticky;
   object-fit: contain;
-  left: 0px;
+  object-fit:cover;
+  object-fit: fill;
   top: 1541px;
   z-index: 1000;
 }
-
 
 .marquee-content {
   width: 100vw;
   position: absolute;
   object-fit: contain;
-  object-fit: scale-down;
-  left: 0px;
+  object-fit: fill;
 }
 
 .track {
   white-space: nowrap;
   width: 100vw;
   will-change: scroll-position;
-  animation: infinite marquee 7s linear;
+  animation: infinite marquee 10s linear;
 }
 
 @keyframes marquee {
@@ -361,7 +360,7 @@ body {
   width: 100vw;
   position: absolute;
   object-fit: contain;
-  object-fit: scale-down;
+  object-fit: fill;
   left: 0px;
 }
 
