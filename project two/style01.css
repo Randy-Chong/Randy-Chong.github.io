@@ -325,23 +325,19 @@ body {
 .marquee {
   width: 100vw;
   position: absolute;
-  position: -webkit-sticky;
   object-fit: contain;
-  object-fit:cover;
-  object-fit: fill;
+  align-content:center;
   top: 1541px;
   z-index: 1000;
 }
 
 .marquee-content {
   width: 100vw;
-  position: absolute;
-  object-fit: contain;
-  object-fit: fill;
 }
 
 .track {
   white-space: nowrap;
+  position: absolute;
   width: 100vw;
   will-change: scroll-position;
   animation: infinite marquee 10s linear;
