@@ -323,35 +323,29 @@ body {
 }
 
 .marquee {
-  position: absolute;
-  object-fit: contain;
-  float: right;
   height: 120px;
   width: 100vw;
-  left: 0px;
-  top: 1541px;
-  z-index: 700;
-  display: flex;
-}
-
-.arrow {
-  height: 200px;
-  width: 100vw;
   position: absolute;
   object-fit: contain;
   left: 0px;
-  top: 6200px;
+  top: 1541px;
+  z-index: 1000;
 }
+
 
 .marquee-content {
   width: 100vw;
+  position: absolute;
+  object-fit: contain;
+  object-fit: scale-down;
+  left: 0px;
 }
 
 .track {
   white-space: nowrap;
-  width: 1680px;
+  width: 100vw;
   will-change: scroll-position;
-  animation: infinite marquee 5s linear;
+  animation: infinite marquee 7s linear;
 }
 
 @keyframes marquee {
@@ -364,9 +358,13 @@ body {
 }
 
 .marquee-img {
-  position: relative;
   width: 100vw;
+  position: absolute;
+  object-fit: contain;
+  object-fit: scale-down;
+  left: 0px;
 }
+
 
 .marquee2 {
   position: absolute;
