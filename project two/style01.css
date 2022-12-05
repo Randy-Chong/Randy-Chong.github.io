@@ -222,11 +222,12 @@ body {
   top: 6400px;
 }
 
-#ENDING {
+.ENDING {
   height: 80px;
-  width: 600px;
+  width: 100vw;
   position: absolute;
-  left: 450px;
+  object-fit: contain;
+  left: 0px;
   top: 6875px;
 }
 
