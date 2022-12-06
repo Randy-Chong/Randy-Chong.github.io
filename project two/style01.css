@@ -1,7 +1,7 @@
 body {
   overflow-x: hidden; /* Hide horizontal scrollbar */
   position: sticky;
-}
+}  
 
 body {
   background-image: url('images/homepage.png');
